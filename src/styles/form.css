@@ -1,0 +1,30 @@
+.pInfo, .compInfo, .eduInfo{
+    padding: 30px 0;
+    border: 2px solid purple;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    width: 100px;
+    height: 20px;
+    align-self: center;
+}
+.submittedData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+ul{
+    list-style-position: inside;
+    list-style-type: square;
+    padding: 0;
+}
+li{
+    margin-bottom: 10px;
+}
+
